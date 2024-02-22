@@ -1,0 +1,62 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+header {
+  background-image: url('https://ricksblog.biz/wp-content/uploads/2021/03/Spirit_Plane_Left_CleanLogo_RGB_REV-e1615494959956.png');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  height: 100px;
+}
+
+header:focus, header:hover {
+  background-image: url('https://i.pinimg.com/originals/dd/24/3c/dd243c57617264da142aa120630f1573.png');
+  background-size: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+input[required] + label:after{
+	content: '*';
+	color: red;
+}
+
+.note {
+  color: red;
+}
+
+body {
+  font-family: montserrat, arial, verdana;
+}
+
+form {
+  background-color: white;
+}
+
+html { 
+  background-color: yellow;
+}
+
+legend {
+  width: auto;
+  padding: 3px;
+  margin-left: calc(50% - 35px - 8px);
+}
+
+fieldset {
+  padding: 15px;
+}
+
+.country-selection, {
+  display: flex;
+}
+
+.country-selection div, .login {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.address {
+  margin-bottom: 15px;
+}
